@@ -1,22 +1,22 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Cauê Assunção Pereira
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : 
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C: real
    soma:real
    multiplicacao:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva("Digite o primeiro valor: ")
    leia(A)
    limpatela
 
-   escreva("Digite o segundo número: ")
+   escreva("Digite o segundo nÃºmero: ")
    leia(B)
    limpatela
 
@@ -24,9 +24,9 @@ Inicio
    multiplicacao <- A * B
 
    se(A=B)entao
-      escreval("O resultado da soma é igual à:", soma)
+      escreval("O resultado da soma Ã© igual Ã :", soma)
    fimse
    se(A<>B)entao
-      escreval("O resultado da multiplicação é igual à:", multiplicacao)
+      escreval("O resultado da multiplicaÃ§Ã£o Ã© igual Ã :", multiplicacao)
    fimse
 Fimalgoritmo
