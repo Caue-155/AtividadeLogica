@@ -1,40 +1,40 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Cauê Assunção Pereira
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : CauÃª AssunÃ§Ã£o Pereira
 // Data atual  : 30/08/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 A: real
 B: real
 C: real
 soma: real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-escreva("Digite o primeiro número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+escreva("Digite o primeiro nÃºmero: ")
 leia(A)
 limpatela
 
-escreva("Digite o segundo número: ")
+escreva("Digite o segundo nÃºmero: ")
 leia(B)
 limpatela
 
-escreva("Digite o terceiro número:")
+escreva("Digite o terceiro nÃºmero:")
 leia(C)
 limpatela
 
 soma <- A+B
 
-escreval("Digite o primeiro número:", A)
+escreval("Digite o primeiro nÃºmero:", A)
 escreval("")
-escreval("Digite o segundo número:", B)
+escreval("Digite o segundo nÃºmero:", B)
 escreval("")
-escreval("Digite o terceiro número:", C)
+escreval("Digite o terceiro nÃºmero:", C)
 escreval("")
 se (soma < C) entao
-      escreval ("O resultado é menor: ", soma)
+      escreval ("O resultado de A e B Ã© menor: ", soma)
    senao
-      escreval("O resultado é maior: ", soma)
+      escreval("O resultado de A e B Ã© maior: ", soma)
    fimse
 Fimalgoritmo
