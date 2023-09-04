@@ -2,7 +2,7 @@ Algoritmo "semnome"
 // Disciplina  :  [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Cauê Assunção Pereira
+// Autor(a)    : 
 // Data atual  : 30/08/2023
 Var
 // Seção de Declarações das variáveis
