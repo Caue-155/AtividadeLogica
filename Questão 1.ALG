@@ -12,25 +12,25 @@ C: real
 soma: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-escreva("Digite o primeiro número: ")
+escreva("Digite o valor de A: ")
 leia(A)
 limpatela
 
-escreva("Digite o segundo número: ")
+escreva("Digite o valor de B: ")
 leia(B)
 limpatela
 
-escreva("Digite o terceiro número:")
+escreva("Digite o valor de C:")
 leia(C)
 limpatela
 
 soma <- A+B
 
-escreval("Digite o primeiro número:", A)
+escreval("Digite o valor de A:", A)
 escreval("")
-escreval("Digite o segundo número:", B)
+escreval("Digite o valor de B:", B)
 escreval("")
-escreval("Digite o terceiro número:", C)
+escreval("Digite o valor de C:", C)
 escreval("")
 se (soma < C) entao
       escreval ("O resultado de A e B é menor: ", soma)
